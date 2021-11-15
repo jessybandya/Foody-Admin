@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    background: radial-gradient(circle, #8a2b06 0%, #8a2b06 100%);  }
+  header .title{
+    flex-grow: 1;
+    margin-left: 20px;
+    font-size: 0.6em;
+  }
+  header h1{
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding-bottom: 10px;
+  }
+  header .pizza-svg {
+    width: 80px;
+    overflow: visible;
+    stroke: #fff;
+    stroke-width: 4;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+  a{
+    text-decoration: none
+  }
